@@ -1,0 +1,33 @@
+{
+  "name": "JSmartMeter238",
+  "description": "This library provides a convenient way (JSON) to interact with the SmartMeter238 library.",
+  "keywords": "json, mqtt, DDS238-4 W, DTS238-7 W, energy, meter, m2m, iot, SmartMeter238",
+  "license": "MIT",
+  "authors": {
+    "name": "Rodrigo Gonzalez",
+    "maintainer": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rodgon81/JSmartMeter238.git"
+  },
+  "dependencies": [
+    {
+      "name": "ArduinoJson",
+      "version": "6.13.0",
+      "authors": "Benoit Blanchon"
+    },
+    {
+      "name": "RemoteDebug",
+      "version": "3.0.5",
+      "authors": "Joao Lopes"
+    }
+  ],
+  "version": "1.0.0-beta1",
+  "frameworks": [
+    "arduino"
+  ],
+  "platforms": [
+    "espressif8266"
+  ]
+}
